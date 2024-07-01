@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(198, 128, 255);
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: rgb(183, 0, 255);
     padding: 10px 20px;
 }
 
@@ -21,9 +21,13 @@ body {
 }
 
 .navbar-brand {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 24px;
+}
+.navbar-brand:hover {
+    background-color: rgb(173, 76, 255);
+    border-radius: 5px;
 }
 
 .navbar-links {
@@ -31,14 +35,15 @@ body {
 }
 
 .nav-link {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
     padding: 5px 10px;
 }
 
 .nav-link:hover {
-    background-color: #555f;
+    background-color: rgb(173, 76, 255);
+    border-radius: 5px;
 }
 
 .weather-container {
@@ -49,10 +54,10 @@ body {
 
 .weather-item {
     padding: 20px;
-    background-color: #fff;
+    background-color: #efc8f7;
     border-radius: 10px;
     margin-top: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 

@@ -9,15 +9,17 @@
 <body>
     <div class="auth-container">
         <form id="loginForm">
-            <label for="login_username">Логін:</label><br>
-            <input type="text" id="login_username" name="username" required><br>
-            <label for="login_password">Пароль:</label><br>
-            <input type="password" id="login_password" name="password" required><br>
-            <label for="login_remember_me">Запамятати мене:</label>
+            <label class="login1" for="login_username">Логін:</label><br>
+            <input class="login2" type="text" id="login_username" name="username" required><br>
+            <label class="login3" for="login_password">Пароль:</label><br>
+            <input class="login4" type="password" id="login_password" name="password" required><br>
+            <label class="login5" for="login_remember_me">Запамятати мене:</label>
             <input type="checkbox" id="login_remember_me" name="remember_me"><br>
-            <input type="submit" value="Увійти">
+            <input class="login6" type="submit" value="Увійти">
+            
         </form>
-        <a href="register.html" class="register-link">реєстрація</a>
+        <label class="login7" >Немає акаунта?</label><br>
+        <a href="register.html" class="register-link">Зеєструватись</a>
     </div>
     <script src="script.js"></script>
 </body>

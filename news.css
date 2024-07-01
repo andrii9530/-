@@ -2,11 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(198, 128, 255);
 }
 
 .navbar {
-    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(183, 0, 255);
     padding: 10px 20px;
 }
 
@@ -14,23 +17,34 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .navbar-brand {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 24px;
 }
+.navbar-brand:hover {
+    background-color: rgb(173, 76, 255);
+    border-radius: 5px;
+}
 
+.navbar-links {
+    display: flex;
+}
 
 .nav-link {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
+    margin: 0 10px;
     padding: 5px 10px;
+    transition: background-color 0.3s;
 }
 
 .nav-link:hover {
-    background-color: #555;
+    background-color: rgb(173, 76, 255);
+    border-radius: 5px;
 }
 
 .news-container {
@@ -44,9 +58,9 @@ body {
     width: calc(30% - 20px);
     margin: 10px;
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #f1b5f8;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #efc8f7;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -69,7 +83,7 @@ body {
 .news-item .source-link {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: #cc00ff;
     color: white;
     text-decoration: none;
     border-radius: 5px;
